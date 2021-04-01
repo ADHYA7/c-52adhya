@@ -1,0 +1,50 @@
+
+.header{
+    background-color:yellow;
+    display:flex;
+    justify-content: space-between;
+}
+.game{
+    background-color: teal;
+    display: flex;
+    justify-content:space-evenly;
+}
+p{
+    text-align: center;
+}
+body{
+       background-color: #150150
+
+}
+h1{
+    margin-Left:20px;
+}
+.menu{
+    margin-Right:20px;
+}
+.menu a {
+    margin-Left:20px;
+    }
+
+a:link{
+    color: crimson;
+}
+a:visited{
+        color: crimson;
+}
+.link{
+     position: relative;
+}
+.link p{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     opacity: 0;
+     }
+.link:hover p{
+    opacity:1;
+}  
+.link:hover img{
+    opacity: 0.3;
+}
